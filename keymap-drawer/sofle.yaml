@@ -1,7 +1,7 @@
 layout: {qmk_keyboard: sofle/rev1}
 layers:
   default: [ESCAPE, '1', '2', '3', '4', '5', '6', '7', '8', '9', '0', DELETE, TAB, Q, W, E, R, T, Y, U, I, O, P, BSPC, LEFT SHIFT, A, S, D, F, G, H, J, K, L, ;, '''',
-    LEFT CONTROL, Z, X, C, V, B, MUTE, '&caps_word', N, M, ',', ., /, CAPSLOCK, '#', LEFT WIN, LEFT ALT, lower, SPACE, ENTER, raise, RCTRL, Sft+ RALT, RGUI]
+    LEFT CONTROL, Z, X, C, V, B, VOLUME UP, VOLUME DOWN, N, M, ',', ., /, CAPSLOCK, '#', LEFT WIN, LEFT ALT, lower, SPACE, ENTER, raise, RCTRL, Sft+ RALT, RGUI]
   lower:
   - {t: ▽, type: trans}
   - F1
@@ -39,14 +39,14 @@ layers:
   - (
   - )
   - '"'
-  - {t: ▽, type: trans}
+  - Ctl+ LEFT SHIFT
   - '='
   - '-'
   - KP PLUS
   - '*'
   - /
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - AGr+ F4
+  - Ctl+AGr+ DELETE
   - '['
   - ']'
   - ;
@@ -106,13 +106,13 @@ layers:
   - COPY
   - PASTE
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - BRI UP
+  - BRIGHTNESS DEC
+  - Ctl+ A
+  - Ctl+ C
+  - Ctl+ X
+  - Ctl+ V
+  - Ctl+ Z
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
