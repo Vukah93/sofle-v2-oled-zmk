@@ -1,7 +1,7 @@
 layout: {qmk_keyboard: sofle/rev1}
 layers:
   default: [ESCAPE, '1', '2', '3', '4', '5', '6', '7', '8', '9', '0', DELETE, TAB, Q, W, E, R, T, Y, U, I, O, P, BSPC, LEFT SHIFT, A, S, D, F, G, H, J, K, L, ;, '''',
-    LEFT CONTROL, Z, X, C, V, B, VOLUME UP, VOLUME DOWN, N, M, ',', ., /, RIGHT SHIFT, '#', LEFT WIN, LEFT ALT, lower, SPACE, ENTER, raise, RCTRL, Sft+ RALT, RGUI]
+    LEFT CONTROL, Z, X, C, V, B, VOLUME UP, VOLUME DOWN, N, M, ',', ., /, RIGHT SHIFT, '#', LEFT WIN, LEFT ALT, lower, SPACE, ENTER, raise, RCTRL, Sft+RALT, RGUI]
   lower:
   - PRINTSCREEN
   - F1
@@ -39,14 +39,14 @@ layers:
   - (
   - )
   - '"'
-  - Ctl+ LEFT SHIFT
+  - LEFT CONTROL
   - '='
   - '-'
   - KP PLUS
   - '*'
   - /
-  - AGr+ F4
-  - Ctl+AGr+ DELETE
+  - AltGr+F4
+  - Ctl+AltGr+DELETE
   - '['
   - ']'
   - ;
@@ -83,9 +83,9 @@ layers:
   - '9'
   - +
   - PG UP
-  - {t: ▽, type: trans}
+  - PSCRN
   - UP
-  - {t: ▽, type: trans}
+  - CALCULATOR
   - '0'
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -100,7 +100,7 @@ layers:
   - RIGHT
   - DEL
   - '"'
-  - {t: ▽, type: trans}
+  - Ctl+LEFT SHIFT
   - '0'
   - '1'
   - '2'
@@ -108,11 +108,11 @@ layers:
   - ENTER
   - BRI UP
   - BRIGHTNESS DEC
-  - Ctl+ A
-  - Ctl+ C
-  - Ctl+ X
-  - Ctl+ V
-  - Ctl+ Z
+  - Ctl+A
+  - Ctl+C
+  - Ctl+X
+  - Ctl+V
+  - Ctl+Z
   - CAPSLOCK
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
