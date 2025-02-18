@@ -76,25 +76,25 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - HOME
+  - PG UP
   - '*'
   - '7'
   - '8'
   - '9'
   - +
-  - PG UP
+  - HOME
   - PSCRN
   - UP
   - CALCULATOR
   - '0'
   - {t: ▽, type: trans}
-  - END
+  - PAGE DOWN
   - /
   - '4'
   - '5'
   - '6'
   - '-'
-  - PG DN
+  - END
   - LEFT
   - DOWN
   - RIGHT
