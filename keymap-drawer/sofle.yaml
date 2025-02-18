@@ -40,10 +40,10 @@ layers:
   - )
   - '"'
   - LEFT CONTROL
-  - '='
-  - '-'
-  - KP PLUS
-  - '*'
+  - PAGE DOWN
+  - PG UP
+  - END
+  - HOME
   - /
   - AltGr+F4
   - Ctl+AltGr+DELETE
@@ -76,25 +76,25 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - PG UP
+  - TAB
   - '*'
   - '7'
   - '8'
   - '9'
   - +
-  - HOME
+  - AL CALCULATOR
   - PSCRN
   - UP
   - CALCULATOR
   - '0'
   - {t: ▽, type: trans}
-  - PAGE DOWN
+  - LEFT SHIFT
   - /
   - '4'
   - '5'
   - '6'
   - '-'
-  - END
+  - AC REDO
   - LEFT
   - DOWN
   - RIGHT
