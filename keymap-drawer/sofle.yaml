@@ -35,7 +35,7 @@ layers:
   - '%'
   - ^
   - '&'
-  - KP MULTIPLY
+  - '*'
   - (
   - )
   - '"'
@@ -100,7 +100,7 @@ layers:
   - RIGHT
   - DEL
   - '"'
-  - Ctl+LEFT SHIFT
+  - '='
   - '0'
   - '1'
   - '2'
