@@ -41,11 +41,11 @@
             //               | GUI | ALT  | CTRL | LOWER|  ENTER |  | SPACE | RAISE| CTRL  | ALT   | GUI  |
 
             bindings = <
-&kp ESCAPE        &kp N1  &kp N2           &kp N3        &kp N4        &kp N5                                        &kp N6  &kp N7     &kp N8        &kp N9    &kp N0    &kp DELETE
-&kp TAB           &kp Q   &kp W            &kp E         &kp R         &kp T                                         &kp Y   &kp U      &kp I         &kp O     &kp P     &kp BSPC
-&kp LEFT_SHIFT    &kp A   &kp S            &kp D         &kp F         &kp G                                         &kp H   &kp J      &kp K         &kp L     &kp SEMI  &kp SQT
-&kp LEFT_CONTROL  &kp Z   &kp X            &kp C         &kp V         &kp B   &kp C_VOLUME_UP    &kp C_VOLUME_DOWN  &kp N   &kp M      &kp COMMA     &kp DOT   &kp FSLH  &kp RIGHT_SHIFT
-                          &kp NON_US_HASH  &kp LEFT_WIN  &kp LEFT_ALT  &mo 1   &kp SPACE          &kp ENTER          &mo 2   &kp RCTRL  &kp RS(RALT)  &kp RGUI
+&kp ESCAPE        &kp N1  &kp N2  &kp N3        &kp N4        &kp N5                                        &kp N6  &kp N7     &kp N8        &kp N9   &kp N0    &kp DELETE
+&kp TAB           &kp Q   &kp W   &kp E         &kp R         &kp T                                         &kp Y   &kp U      &kp I         &kp O    &kp P     &kp BSPC
+&kp LEFT_SHIFT    &kp A   &kp S   &kp D         &kp F         &kp G                                         &kp H   &kp J      &kp K         &kp L    &kp SEMI  &kp SQT
+&kp LEFT_CONTROL  &kp Z   &kp X   &kp C         &kp V         &kp B   &kp C_VOLUME_UP    &kp C_VOLUME_DOWN  &kp N   &kp M      &kp COMMA     &kp DOT  &kp FSLH  &kp RIGHT_SHIFT
+                          &none   &kp LEFT_WIN  &kp LEFT_ALT  &mo 1   &kp SPACE          &kp ENTER          &mo 2   &kp RCTRL  &kp RS(RALT)  &none
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN &inc_dec_kp PG_UP PG_DN>;
@@ -63,8 +63,8 @@
             //               |     |      |      |      |        |  |       |      |       |       |      |
 
             bindings = <
-&kp PRINTSCREEN   &kp F1         &kp F2     &kp F3    &kp F4    &kp F5                                       &kp F6     &kp F7    &kp F8        &kp F9     &kp F10   &kp F11
-&kp GRAVE         &kp N1         &kp N2     &kp N3    &kp N4    &kp N5                                       &kp N6     &kp N7    &kp N8        &kp N9     &kp N0    &kp F12
+&kp GRAVE         &kp F1         &kp F2     &kp F3    &kp F4    &kp F5                                       &kp F6     &kp F7    &kp F8        &kp F9     &kp F10   &kp F11
+&kp TILDE         &kp N1         &kp N2     &kp N3    &kp N4    &kp N5                                       &kp N6     &kp N7    &kp N8        &kp N9     &kp N0    &kp F12
 &kp INS           &kp EXCL       &kp AT     &kp HASH  &kp DLLR  &kp PRCNT                                    &kp CARET  &kp AMPS  &kp ASTERISK  &kp LPAR   &kp RPAR  &kp DOUBLE_QUOTES
 &kp LEFT_CONTROL  &kp PAGE_DOWN  &kp PG_UP  &kp END   &kp HOME  &kp SLASH  &kp RA(F4)    &kp RC(RA(DELETE))  &kp LBKT   &kp RBKT  &kp SEMI      &kp COLON  &kp BSLH  &kp CAPSLOCK
                                  &trans     &trans    &trans    &trans     &trans        &trans              &trans     &trans    &trans        &trans
