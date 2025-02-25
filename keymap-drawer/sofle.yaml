@@ -82,7 +82,7 @@ layers:
   - '8'
   - '9'
   - +
-  - AL CALCULATOR
+  - '{'
   - PSCRN
   - UP
   - CALCULATOR
@@ -94,7 +94,7 @@ layers:
   - '5'
   - '6'
   - '-'
-  - AC REDO
+  - '}'
   - LEFT
   - DOWN
   - RIGHT
