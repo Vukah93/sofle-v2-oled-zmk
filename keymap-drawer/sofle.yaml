@@ -44,7 +44,7 @@ layers:
   - PG UP
   - END
   - HOME
-  - /
+  - '|'
   - AltGr+F4
   - Ctl+AltGr+DELETE
   - '['
