@@ -87,7 +87,7 @@ layers:
   - UP
   - CALCULATOR
   - '0'
-  - {t: ▽, type: trans}
+  - '&studio_unlock'
   - LEFT SHIFT
   - /
   - '4'
