@@ -22,7 +22,7 @@
         compatible = "zmk,conditional-layers";
 
         adjust_layer {
-            if-layers = <1 2>;
+            if-layers = <2 3>;
             then-layer = <3>;
         };
     };
@@ -41,11 +41,11 @@
             //               | GUI | ALT  | CTRL | LOWER|  ENTER |  | SPACE | RAISE| CTRL  | ALT   | GUI  |
 
             bindings = <
-&kp ESCAPE        &kp N1  &kp N2  &kp N3        &kp N4        &kp N5                                        &kp N6  &kp N7        &kp N8        &kp N9   &kp N0    &kp DELETE
-&kp TAB           &kp Q   &kp W   &kp E         &kp R         &kp T                                         &kp Y   &kp U         &kp I         &kp O    &kp P     &kp BSPC
-&kp LEFT_SHIFT    &kp A   &kp S   &kp D         &kp F         &kp G                                         &kp H   &kp J         &kp K         &kp L    &kp SEMI  &kp SQT
-&kp LEFT_CONTROL  &kp Z   &kp X   &kp C         &kp V         &kp B   &kp C_VOLUME_UP    &kp C_VOLUME_DOWN  &kp N   &kp M         &kp COMMA     &kp DOT  &kp FSLH  &kp CAPS
-                          &none   &kp LEFT_WIN  &kp LEFT_ALT  &mo 1   &kp SPACE          &kp ENTER          &mo 2   &kp LEFT_WIN  &kp LEFT_WIN  &none
+&kp ESCAPE        &kp N1  &kp N2  &kp N3        &kp N4        &kp N5                                        &kp N6  &kp N7         &kp N8        &kp N9   &kp N0    &kp DELETE
+&kp TAB           &kp Q   &kp W   &kp E         &kp R         &kp T                                         &kp Y   &kp U          &kp I         &kp O    &kp P     &kp BSPC
+&kp LEFT_SHIFT    &kp A   &kp S   &kp D         &kp F         &kp G                                         &kp H   &kp J          &kp K         &kp L    &kp SEMI  &kp SQT
+&kp LEFT_CONTROL  &kp Z   &kp X   &kp C         &kp V         &kp B   &kp C_VOLUME_UP    &kp C_VOLUME_DOWN  &kp N   &kp M          &kp COMMA     &kp DOT  &kp FSLH  &kp CAPS
+                          &none   &kp LEFT_WIN  &kp LEFT_ALT  &mo 2   &kp SPACE          &kp ENTER          &mo 3   &kp RIGHT_ALT  &kp LEFT_WIN  &none
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN &inc_dec_kp PG_UP PG_DN>;
@@ -63,11 +63,11 @@
             //               |     |      |      |      |        |  |       |      |       |       |      |
 
             bindings = <
-&kp ESCAPE        &kp F1        &kp F2        &kp F3        &kp F4        &kp F5                                       &kp F6                &kp F7                 &kp F8        &kp F9     &kp F10    &kp F11
-&kp GRAVE         &kp ASTERISK  &kp N7        &kp N8        &kp N9        &kp PLUS                                     &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp N8        &kp N9     &kp N0     &kp F12
-&kp LEFT_SHIFT    &kp SLASH     &kp NUMBER_4  &kp N5        &kp NUMBER_6  &kp MINUS                                    &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &kp ASTERISK  &kp LPAR   &kp RPAR   &kp DOUBLE_QUOTES
-&kp LEFT_CONTROL  &kp N0        &kp N1        &kp NUMBER_2  &kp NUMBER_3  &kp EQUAL  &kp RA(F4)    &kp RC(RA(DELETE))  &kp LEFT_BRACE        &kp RIGHT_BRACE        &kp SEMI      &kp COLON  &kp SLASH  &kp CAPSLOCK
-                                &trans        &trans        &trans        &trans     &kp SPACE     &kp ENTER           &trans                &trans                 &trans        &trans
+&kp ESCAPE        &kp F1        &kp F2        &kp F3        &kp F4        &kp F5                                       &kp F6                &kp F7                 &kp F8           &kp F9     &kp F10    &kp F11
+&kp TAB           &kp ASTERISK  &kp N7        &kp N8        &kp N9        &kp PLUS                                     &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp HOME         &kp END    &kp N0     &kp F12
+&kp LEFT_SHIFT    &kp SLASH     &kp NUMBER_4  &kp N5        &kp NUMBER_6  &kp MINUS                                    &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &kp PG_UP        &kp PG_DN  &kp PIPE   &kp DOUBLE_QUOTES
+&kp LEFT_CONTROL  &kp N0        &kp N1        &kp NUMBER_2  &kp NUMBER_3  &kp EQUAL  &kp RA(F4)    &kp RC(RA(DELETE))  &kp LEFT_BRACE        &kp RIGHT_BRACE        &kp PRINTSCREEN  &kp GRAVE  &kp SLASH  &kp CAPSLOCK
+                                &trans        &kp LEFT_GUI  &kp LEFT_ALT  &trans     &kp SPACE     &kp ENTER           &trans                &kp RIGHT_ALT          &kp RIGHT_GUI    &trans
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN &inc_dec_kp PG_UP PG_DN>;
@@ -84,11 +84,11 @@
             //                |      |       |       |      |      |  |      |      |      |       |      |
 
             bindings = <
-&bt BT_CLR        &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4                                        &trans           &trans       &trans     &trans         &trans     &trans
-&kp TAB           &kp ASTERISK  &kp N7        &kp N8        &kp N9        &kp PLUS                                            &kp LEFT_BRACE   &kp PAGE_UP  &kp UP     &kp PAGE_DOWN  &kp N0     &studio_unlock
-&kp LEFT_SHIFT    &kp SLASH     &kp NUMBER_4  &kp N5        &kp NUMBER_6  &kp MINUS                                           &kp RIGHT_BRACE  &kp LEFT     &kp DOWN   &kp RIGHT      &kp DEL    &kp DOUBLE_QUOTES
-&kp LEFT_CONTROL  &kp N0        &kp N1        &kp NUMBER_2  &kp NUMBER_3  &kp ENTER     &kp C_BRI_UP    &kp C_BRIGHTNESS_DEC  &kp LC(A)        &kp HOME     &kp LC(X)  &kp LC(END)    &kp LC(Z)  &kp CAPSLOCK
-                                &trans        &trans        &trans        &trans        &kp SPACE       &kp ENTER             &trans           &trans       &trans     &trans
+&bt BT_CLR        &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4                                        &trans           &trans         &trans         &trans         &trans     &trans
+&kp TAB           &kp ASTERISK  &kp N7        &kp N8        &kp N9        &kp PLUS                                            &kp LEFT_BRACE   &kp PAGE_UP    &kp UP         &kp PAGE_DOWN  &kp N0     &studio_unlock
+&kp LEFT_SHIFT    &kp SLASH     &kp NUMBER_4  &kp N5        &kp NUMBER_6  &kp MINUS                                           &kp RIGHT_BRACE  &kp LEFT       &kp DOWN       &kp RIGHT      &kp DEL    &kp DOUBLE_QUOTES
+&kp LEFT_CONTROL  &kp N0        &kp N1        &kp NUMBER_2  &kp NUMBER_3  &kp ENTER     &kp C_BRI_UP    &kp C_BRIGHTNESS_DEC  &kp LC(A)        &kp HOME       &kp LC(X)      &kp LC(END)    &kp LC(Z)  &kp CAPSLOCK
+                                &trans        &kp LEFT_GUI  &kp LEFT_ALT  &trans        &kp SPACE       &kp ENTER             &trans           &kp RIGHT_ALT  &kp RIGHT_GUI  &trans
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN &inc_dec_kp PG_UP PG_DN>;
