@@ -1,7 +1,7 @@
 layout: {zmk_keyboard: sofle}
 layers:
   default: [ESCAPE, '1', '2', '3', '4', '5', '6', '7', '8', '9', '0', DELETE, TAB, Q, W, E, R, T, Y, U, I, O, P, BSPC, LEFT SHIFT, A, S, D, F, G, H, J, K, L, ;, '''',
-    LEFT CONTROL, Z, X, C, V, B, VOLUME UP, VOLUME DOWN, N, M, ',', ., /, CAPS, '', LEFT WIN, LEFT ALT, lower, SPACE, ENTER, raise, LEFT WIN, LEFT WIN, '']
+    LEFT CONTROL, Z, X, C, V, B, VOLUME UP, VOLUME DOWN, N, M, ',', ., /, CAPS, '', LEFT WIN, LEFT ALT, raise, SPACE, ENTER, adjust, RIGHT ALT, LEFT WIN, '']
   lower:
   - ESCAPE
   - F1
@@ -15,7 +15,7 @@ layers:
   - F9
   - F10
   - F11
-  - '`'
+  - TAB
   - '*'
   - '7'
   - '8'
@@ -23,8 +23,8 @@ layers:
   - +
   - (
   - )
-  - '8'
-  - '9'
+  - HOME
+  - END
   - '0'
   - F12
   - LEFT SHIFT
@@ -35,9 +35,9 @@ layers:
   - '-'
   - '['
   - ']'
-  - '*'
-  - (
-  - )
+  - PG UP
+  - PG DN
+  - '|'
   - '"'
   - LEFT CONTROL
   - '0'
@@ -49,19 +49,19 @@ layers:
   - Ctl+AltGr+DELETE
   - '{'
   - '}'
-  - ;
-  - ':'
+  - PRINTSCREEN
+  - '`'
   - /
   - CAPSLOCK
   - {t: ▽, type: trans}
+  - LEFT GUI
+  - LEFT ALT
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {type: held}
   - SPACE
   - ENTER
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - RIGHT ALT
+  - RIGHT GUI
   - {t: ▽, type: trans}
   raise:
   - BT CLR
@@ -115,14 +115,14 @@ layers:
   - Ctl+Z
   - CAPSLOCK
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - LEFT GUI
+  - LEFT ALT
+  - {type: held}
   - SPACE
   - ENTER
-  - {type: held}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - RIGHT ALT
+  - RIGHT GUI
   - {t: ▽, type: trans}
   adjust:
   - BT CLR
@@ -178,7 +178,7 @@ layers:
   - ''
   - ''
   - ''
-  - {type: held}
+  - ''
   - ''
   - ''
   - {type: held}
