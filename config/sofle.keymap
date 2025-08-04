@@ -34,14 +34,14 @@
             label = "default";
 
             // ------------------------------------------------------------------------------------------------------------
-            // |   `   |  1  |  2  |  3   |  4   |  5   |                   |  6   |  7    |  8    |  9   |   0   |       |
-            // |  ESC  |  Q  |  W  |  E   |  R   |  T   |                   |  Y   |  U    |  I    |  O   |   P   | BKSPC |
-            // |  TAB  |  A  |  S  |  D   |  F   |  G   |                   |  H   |  J    |  K    |  L   |   ;   |   '   |
-            // | SHIFT |  Z  |  X  |  C   |  V   |  B   |  MUTE  |  |       |  N   |  M    |  ,    |  .   |   /   | SHIFT |
-            //               | GUI | ALT  | CTRL | LOWER|  ENTER |  | SPACE | RAISE| CTRL  | ALT   | GUI  |
+            // |  ESC  |  F1 |  F2 |  F3  |  F4  |  F5  |                   |  F6  |  F7   |  F8   |  F9  |  F10  | DELETE|
+            // |  TAB  |  Q  |  W  |  E   |  R   |  T   |                   |  Y   |  U    |  I    |  O   |   P   | BKSPC |
+            // | SHIFT |  A  |  S  |  D   |  F   |  G   |                   |  H   |  J    |  K    |  L   |   ;   |   '   |
+            // |  CTRL |  Z  |  X  |  C   |  V   |  B   |  MUTE  |  |       |  N   |  M    |  ,    |  .   |   /   | SHIFT |
+            //               |     | GUI  | ALT  | LOWER|  SPACE |  | ENTER | RAISE|  ALT  | GUI   |      |
 
             bindings = <
-&kp ESCAPE        &kp N1  &kp N2  &kp N3        &kp N4        &kp N5                                        &kp N6  &kp N7         &kp N8        &kp N9   &kp N0    &kp DELETE
+&kp ESCAPE        &kp F1  &kp F2  &kp F3        &kp F4        &kp F5                                       &kp N6  &kp N7         &kp N8        &kp N9   &kp N0    &kp DELETE
 &kp TAB           &kp Q   &kp W   &kp E         &kp R         &kp T                                         &kp Y   &kp U          &kp I         &kp O    &kp P     &kp BSPC
 &kp LEFT_SHIFT    &kp A   &kp S   &kp D         &kp F         &kp G                                         &kp H   &kp J          &kp K         &kp L    &kp SEMI  &kp SQT
 &kp LEFT_CONTROL  &kp Z   &kp X   &kp C         &kp V         &kp B   &kp C_VOLUME_UP    &kp C_VOLUME_DOWN  &kp N   &kp M          &kp COMMA     &kp DOT  &kp FSLH  &kp CAPS
@@ -57,10 +57,10 @@
             // TODO: Some binds are waiting for shifted keycode support.
             // ------------------------------------------------------------------------------------------------------------
             // |       |  F1 |  F2 |  F3  |  F4  |  F5  |                   |  F6  |  F7   |  F8   |  F9  |  F10  |  F11  |
-            // |   `   |  1  |  2  |  3   |  4   |  5   |                   |  6   |  7    |  8    |  9   |   0   |  F12  |
-            // |       |  !  |  @  |  #   |  $   |  %   |                   |  ^   |  &    |  *    |  (   |   )   |   |   |
-            // |       |  =  |  -  |  +   |  {   |  }   |        |  |       |  [   |  ]    |  ;    |  :   |   \   |       |
-            //               |     |      |      |      |        |  |       |      |       |       |      |
+            // |   `   |  *  |  7  |  8   |  9   |  +   |                   |     |  7    |  8    |  9   |   0   |  F12  |
+            // |       |  /  |  4  |  5   |  6   |  -   |                   |  ^   |  &    |  *    |  (   |   )   |   |   |
+            // |       |  0  |  1  |  2   |  3   |  =   |        |  |       |  [   |  ]    |  ;    |  :   |   \   |       |
+            //               |     | GUI  | ALT  | LOWER| SPACE  |  | ENTER | RAISE|  ALT  | GUI   |      |
 
             bindings = <
 &kp ESCAPE        &kp F1        &kp F2        &kp F3        &kp F4        &kp F5                                       &kp F6                &kp F7                 &kp F8           &kp F9     &kp F10    &kp F11
